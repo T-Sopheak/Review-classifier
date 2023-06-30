@@ -24,7 +24,7 @@ app_mode = st.sidebar.selectbox('Select Page', ['Home', 'Feedback']) #two pages
 if app_mode == 'Home':
     st.header('Welcome to "Review Classifier" Web App!')
     st.subheader('This app allows you to predict whether a review is "Positive" or "Negative".')
-    st.image('review_pic.png')
+    st.image('review_pic.PNG')
     st.subheader('Please write a review below: ')
     review = st.text_input("Review: ")
 
